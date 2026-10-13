@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<style>
+    .custom-nav{
+         background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid #e8eee9;
+            padding: 16px 0;
+            transition: 0.3s;
+            position: fixed;
+            z-index: 10000;
+            width: 100%;
+    }
+      .navbar-brand {
+            color: #1d1d1d !important;
+            font-size: 30px;
+            letter-spacing: 1px;
+        }
+         .navbar-brand span {
+            color: #159447;
+        }
+          .nav-link {
+            color: #222 !important;
+            font-size: 15px;
+            font-weight: 500;
+           transition: 0.3s;
+           
+        }
+        
+        
+        .nav-link:hover{
+            color: #159447;
+            border-bottom: 1px solid #159447;
+           transform: scale(1.1);
+
+        }
+        .icon{
+            color:#159447;
+          font-size: 40px;
+        }
+       
+   .cards{
+     background: #f3faf5;
+  margin-top: 90px;
+         
+   }
+   .section-title{
+    font-size: 38px;
+    font-weight:900;
+    padding-top: 50px;
+   }
+   .cat{
+    color: #159447;
+   }
+   .category-card{
+    background-color: #ffffff;
+    padding: 28px;
+    border: 1px solid #f3faf5;
+    border-radius: 10px;
+   text-align: center;
+   position: relative;
+   transition: 0.4s;
+   height: 100%;
+   }
+   .category-card img{
+    width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            border: 5px solid green;
+           
+   }
+   .category-card:hover{
+    transform: translateY(-9px);
+     box-shadow:
+                0 18px 35px rgba(21, 148, 71, 0.12);
+    
+   }
+   
+          .tton{
+       background-color: #159447;
+       color: #e8eee9;
+       height: 40px;
+       border-radius: 5px;
+       border: none;
+       transition: 0.3s;        
+        
+       }
+       .tton:hover{
+        background-color: white;
+        color: #159447;
+       }
+</style>
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <nav class="navbar navbar-expand-lg fixed-top custom-nav">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            Easy<span>Buy</span>
+        </a>
+          <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar"
+       aria-controls="navbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation" >
+
+    <span class="navbar-toggler-icon"></span>
+
+</button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbar">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link active px-3" href="exact1.html">
+                      Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="exact1.html#category">
+                        Category
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-shoe-prints"></i>
+        </div>
+
+    </div>
+
+</nav>
+    
+    <section class="cards">
+        <div class="container">
+            <div class="text-center  mb-5">
+                <h2 class="section-title">
+                    MEN'S 
+                    <span class="cat">CATEGORY</span>
+                </h2>
+                <p>Explore our wide range of men's footwear collection.<br>
+                Choose the perfect pair for every occasion</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+
+                <div class="category-card">
+
+                    <img src="card1.jpg"
+                         class="img-fluid"
+                         alt="Men's Collection">
+
+
+                    <div class="overlay">
+
+                        <h3>
+                            Shoes
+                        </h3>
+                        <p>Trendy and Comfortable shoes<br>
+                        for every shoes</p>
+                        <a href="genshoessection.html"
+                           class="shop-btn">
+
+                          <button class="tton">  Shop Now <i class="bi bi-arrow-right ms-2"></i></button>
+                            
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+                <div class="category-card">
+
+                    <img src="card2.2.png"
+                         class="img-fluid"
+                         alt="Men's Collection">
+
+
+                    <div class="overlay">
+
+                        <h3>
+                            Sandals
+                        </h3>
+                        <p>Stylish and durable sandals<br>
+                        for any adventure</p>
+                        <a href="gensandalsection.html"
+                           class="shop-btn">
+
+                          <button class="tton">  Shop Now<i class="bi bi-arrow-right ms-2"></i></button>
+
+                        </a>
+
+                    </div>
+
+                </div>
+                </div>
+<div class="col-lg-4 col-md-6">
+
+                <div class="category-card">
+
+                    <img src="card3.3.png"
+                         class="img-fluid"
+                         alt="Men's Collection">
+
+
+                    <div class="overlay">
+
+                        <h3>
+                            Flip Flops
+                        </h3>
+                    <p>Comfortable and casual slippers<br>
+                    for everyday use</p>
+                        <a href="genflipsection.html"
+                           class="shop-btn">
+
+                          <button class="tton">  Shop Now<i class="bi bi-arrow-right ms-2"></i></button>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+        </div>
+    </section>
+</body>
+    
+</html>
